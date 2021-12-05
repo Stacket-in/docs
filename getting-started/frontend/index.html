@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<title>About - Stacket Documentation</title>
+<title>Installing Frontend - Stacket Documentation</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="This website is a documentation site for Stacket software developers.">
 <meta name="generator" content="mkdocs-1.2.3, mkdocs-gitbook-1.0.7">
 <meta name="author" content="you">
-<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
 <meta name="HandheldFriendly" content="true"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta rel="next" href="" />
-<link href="./css/style.min.css" rel="stylesheet"> 
+<link href="../../css/style.min.css" rel="stylesheet"> 
 </head>
 
 <body>
@@ -27,21 +27,21 @@
 <nav role="navigation">
 <ul class="summary">
 <li>
-<a href="." target="_blank" class="custom-link">Stacket Documentation</a>
+<a href="../.." target="_blank" class="custom-link">Stacket Documentation</a>
 </li>
 <li class="divider"></li>
 <li class="header">Getting Started</li>
 
 <li>
-<a href="getting-started/" class="">Introduction</a>
+<a href="../" class="">Introduction</a>
 </li>
 
 <li>
-<a href="getting-started/frontend/" class="">Installing Frontend</a>
+<a href="./" class="active">Installing Frontend</a>
 </li>
 
-<li class="chapter active" data-path="">
-<a href=".">About</a>
+<li class="chapter" data-path="">
+<a href="../..">About</a>
 <li class="divider"></li>
 
 
@@ -80,12 +80,23 @@ Theme by GitBook
 
 
 
-<h1 id="welcome-to-stacket-documnetation">Welcome to Stacket Documnetation</h1>
-<p>We are India's first and last public based hedge fund.
-For more information visit our website:
-- <a href="https://stacket.in/home">Home page</a>
-- <a href="https://github.com/Stacket-in">Github</a>
-- <a href="https://www.linkedin.com/company/stacketofficial">Linkedin</a>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
+<h1 id="how-to-configure-frontend">How to configure frontend:</h1>
+<p>To get started with frontend make sure you have github access to the repository. If you don't have access to the repository, you can request by mailing to support@stacket.in or by creating an issue on the repository.</p>
+<h3 id="step-1">Step 1:</h3>
+<p>Clone the repository: <code>git clone https://github.com/Stacket-in/frontend.git</code></p>
+<h3 id="step-2">Step 2:</h3>
+<p>Install dependencies: 
+<code>npm install</code>
+or using yarn:
+<code>yarn install</code></p>
+<p><strong>Note:</strong> If you are facing peer dependency issues, you can try the above commands with <code>--force</code> flag.</p>
+<h3 id="step-3">Step 3:</h3>
+<p>YOu can run any project using the following command:]
+<code>ng serve &lt;project_name&gt;</code>
+here <project_name> is the name of the project you want to run. Follow are the list of projects available:
+- dashboard: This is the main project which is used to manage the frontend dashboard/app.
+- landing: This is the landing page of stacket.in.
+- admin: This is the admin panel of stacket.in.</p>
 
 
 </section>
@@ -111,9 +122,9 @@ For more information visit our website:
 </div> <!-- end of body-inner -->
 
 </div> <!-- end of book-body -->
-<script src="./js/main.js"></script>
-<script src="search/main.js"></script>
-<script src="./js/gitbook.min.js"></script>
-<script src="./js/theme.min.js"></script>
+<script src="../../js/main.js"></script>
+<script src="../../search/main.js"></script>
+<script src="../../js/gitbook.min.js"></script>
+<script src="../../js/theme.min.js"></script>
 </body>
 </html>
