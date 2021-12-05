@@ -4,6 +4,7 @@ site_author: you
 site_description: This website is a documentation site for Stacket software developers.
 
 nav:
+  - Getting Started: docs/getting-started/index.md
   - About: docs/index.md
 
 theme:
