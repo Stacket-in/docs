@@ -1,0 +1,13 @@
+site_name: Stacket Documentation
+site_url: https://docs.stacket.in
+site_author: you
+site_description: This website is a documentation site for Stacket software developers.
+
+nav:
+  - About: index.md
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
