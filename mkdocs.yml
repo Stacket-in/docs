@@ -4,7 +4,7 @@ site_author: you
 site_description: This website is a documentation site for Stacket software developers.
 
 nav:
-  - About: index.md
+  - About: docs/index.md
 
 theme:
   name: readthedocs
