@@ -5,4 +5,24 @@
          <lastmod>2021-12-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://docs.stacket.in/getting-started/</loc>
+         <lastmod>2021-12-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.stacket.in/getting-started/backend/</loc>
+         <lastmod>2021-12-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.stacket.in/getting-started/database/</loc>
+         <lastmod>2021-12-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.stacket.in/getting-started/frontend/</loc>
+         <lastmod>2021-12-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>

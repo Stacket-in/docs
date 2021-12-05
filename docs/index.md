@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Welcome to Stacket Documnetation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+We are India's first and last public based hedge fund.
+For more information visit our website:
 
-## Commands
+- [Home page](https://stacket.in/home)
+- [Github](https://github.com/Stacket-in)
+- [Linkedin](https://www.linkedin.com/company/stacketofficial)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+These documentation will help you to start ddeveloping and contributing to Stacket.

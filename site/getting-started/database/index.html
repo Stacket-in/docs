@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<title>Introduction - Stacket Documentation</title>
+<title>Database - Stacket Documentation</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="This website is a documentation site for Stacket software developers.">
 <meta name="generator" content="mkdocs-1.2.3, mkdocs-gitbook-1.0.7">
 <meta name="author" content="you">
-<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
 <meta name="HandheldFriendly" content="true"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta rel="next" href="" />
-<link href="./css/style.min.css" rel="stylesheet"> 
+<link href="../../css/style.min.css" rel="stylesheet"> 
 </head>
 
 <body>
@@ -24,31 +24,31 @@
 <nav role="navigation">
 <ul class="summary">
 <li>
-<a href="." target="_blank" class="custom-link">Stacket Documentation</a>
+<a href="../.." target="_blank" class="custom-link">Stacket Documentation</a>
 </li>
 <li class="divider"></li>
 <li class="header">Getting Started</li>
 
 <li>
-<a href="getting-started/" class="">Introduction</a>
+<a href="../" class="">Introduction</a>
 </li>
 
 <li>
-<a href="getting-started/frontend/" class="">Frontend</a>
+<a href="../frontend/" class="">Frontend</a>
 </li>
 
 <li>
-<a href="getting-started/backend/" class="">Backend</a>
+<a href="../backend/" class="">Backend</a>
 </li>
 
 <li>
-<a href="getting-started/database/" class="">Database</a>
+<a href="./" class="active">Database</a>
 </li>
 
 <li class="header">About</li>
 
 <li>
-<a href="." class="active">Introduction</a>
+<a href="../.." class="">Introduction</a>
 </li>
 
 <li class="divider"></li>
@@ -87,15 +87,21 @@ Theme by GitBook
 
 
 
-<h1 id="welcome-to-stacket-documnetation">Welcome to Stacket Documnetation</h1>
-<p>We are India's first and last public based hedge fund.
-For more information visit our website:</p>
-<ul>
-<li><a href="https://stacket.in/home">Home page</a></li>
-<li><a href="https://github.com/Stacket-in">Github</a></li>
-<li><a href="https://www.linkedin.com/company/stacketofficial">Linkedin</a></li>
-</ul>
-<p>These documentation will help you to start ddeveloping and contributing to Stacket.</p>
+<h1 id="database-configuration">Database Configuration</h1>
+<p>There are two database configurations available:</p>
+<ol>
+<li><strong>Development</strong>: This is the database used while developing the application. This is run locally and seeding the database is done with local data.</li>
+<li><strong>Production</strong>: This is the database used in production. This is run on the server and seeding the database is done with remote data.</li>
+</ol>
+<p>Be careful when changing the database configuration. If you change the database configuration, you will lose all your data.</p>
+<h2 id="setting-up-development-database">Setting up development database</h2>
+<p>This step assumes that you have already installed postgresql and created a user with the following credentials:</p>
+<pre><code>username: postgres
+password: admin
+</code></pre>
+<p>After creating the user with above credentials we will start the server on port 5432. Hence the following command will start the server:</p>
+<pre><code>sudo service postgresql start
+</code></pre>
 
 
 </section>
@@ -106,8 +112,8 @@ For more information visit our website:</p>
 </div> <!-- end of body-inner -->
 
 </div> <!-- end of book-body -->
-<script src="./js/main.js"></script>
-<script src="./js/gitbook.min.js"></script>
-<script src="./js/theme.min.js"></script>
+<script src="../../js/main.js"></script>
+<script src="../../js/gitbook.min.js"></script>
+<script src="../../js/theme.min.js"></script>
 </body>
 </html>

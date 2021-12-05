@@ -4,11 +4,18 @@ site_author: you
 site_description: This website is a documentation site for Stacket software developers.
 
 nav:
-  - Getting Started: docs/getting-started/index.md
-  - About: docs/index.md
+  - "Getting Started":
+      - "Introduction": "getting-started/index.md"
+      - "Frontend": "getting-started/frontend.md"
+      - "Backend": "getting-started/backend.md"
+      - "Database": "getting-started/database.md"
+  - "About":
+      - "Introduction": "index.md"
 
 theme:
-  name: readthedocs
+  name: gitbook
   highlightjs: true
   hljs_languages:
     - yaml
+
+plugins: []
