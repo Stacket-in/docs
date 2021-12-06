@@ -14,15 +14,26 @@ nav:
 
 theme:
   name: material
-  highlightjs: true
-  hljs_languages:
-    - yaml
+  favicon: img/favicon.ico
+  features:
+    - content.code.annotate
 
 plugins:
   - search
   - minify:
-    minify_html: true
-    minify_js: true
-    minify_css: true
-    htmlmin_opts:
-      remove_comments: true
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+
+copyright: Copyright &copy; 2020 - 2021 stacket.in
+
+extra:
+  generator: false

@@ -2,21 +2,29 @@
 
 To get started with frontend make sure you have github access to the repository. If you don't have access to the repository, you can request by mailing to support@stacket.in or by creating an issue on the repository.
 
+Repository: <https://github.com/Stacket-in/frontend>
+
 ## Step 1
 
 Clone the repository:
 
-`git clone https://github.com/Stacket-in/frontend.git`
+```py
+git clone https://github.com/Stacket-in/frontend.git
+```
 
 ## Step 2
 
 Install dependencies:
 
-`npm install`
+```py
+npm install
+```
 
 or using yarn:
 
-`yarn install`
+```py
+yarn install
+```
 
 **Note:** If you are facing peer dependency issues, you can try the above commands with `--force` flag.
 
