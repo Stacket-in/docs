@@ -13,9 +13,16 @@ nav:
       - "Introduction": "index.md"
 
 theme:
-  name: gitbook
+  name: material
   highlightjs: true
   hljs_languages:
     - yaml
 
-plugins: []
+plugins:
+  - search
+  - minify:
+    minify_html: true
+    minify_js: true
+    minify_css: true
+    htmlmin_opts:
+      remove_comments: true
