@@ -4,7 +4,7 @@ To get started with frontend make sure you have github access to the repository.
 
 ## Prequisites
 
-1. [Install PostgreSql as per the compatibility of your PC and OS](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+1. [Install PostgreSql as per the compatibility of your PC and OS](https://www.postgresql.org/download)
 2. [Install graphql](https://www.graphql-cli.com/introduction)
 
 ## Step 1

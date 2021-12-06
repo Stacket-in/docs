@@ -1,4 +1,4 @@
-# Welcome to Stacket Documnetation
+# Welcome to Stacket Documentation
 
 We are India's first and last public based hedge fund.
 For more information visit our website:
