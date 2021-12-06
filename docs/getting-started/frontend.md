@@ -34,7 +34,8 @@ You can run any project using the following command:
 `ng serve <project_name>`
 here <project_name> is the name of the project you want to run. Follow are the list of projects available:
 
-- dashboard: This is the main project which is used to manage the frontend dashboard/app.
-- landing: This is the landing page of stacket.in.
-- admin: This is the admin panel of stacket.in.
+- **dashboard**: This is the main project which is used to manage the frontend dashboard/app.
+- **landing**: This is the landing page of stacket.in.
+- **admin**: This is the admin panel of stacket.in.
+  
 After successful installation navigate to <http://localhost:4200/> on your browser to open the app.
