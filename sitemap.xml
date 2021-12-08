@@ -2,27 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.stacket.in/</loc>
-         <lastmod>2021-12-06</lastmod>
+         <lastmod>2021-12-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.stacket.in/collaboration/</loc>
+         <lastmod>2021-12-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.stacket.in/collaboration/liveshare/</loc>
+         <lastmod>2021-12-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.stacket.in/getting-started/</loc>
-         <lastmod>2021-12-06</lastmod>
+         <lastmod>2021-12-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.stacket.in/getting-started/backend/</loc>
-         <lastmod>2021-12-06</lastmod>
+         <lastmod>2021-12-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.stacket.in/getting-started/database/</loc>
-         <lastmod>2021-12-06</lastmod>
+         <lastmod>2021-12-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.stacket.in/getting-started/frontend/</loc>
-         <lastmod>2021-12-06</lastmod>
+         <lastmod>2021-12-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
