@@ -9,6 +9,9 @@ nav:
       - "Frontend": "getting-started/frontend.md"
       - "Backend": "getting-started/backend.md"
       - "Database": "getting-started/database.md"
+  - "Collaboration":
+      - "Introduction": "collaboration/index.md"
+      - "Live Share": "collaboration/liveshare.md"
   - "About":
       - "Introduction": "index.md"
 
